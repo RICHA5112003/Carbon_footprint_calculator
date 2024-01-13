@@ -1,2 +1,1 @@
-# Carbon_footprint_calculator
-I created a carbon_footprint_calculator webapplication using react as a frammework.
+The Carbon Footprint Calculator features a sleek design with dedicated pages for transport, diet, and energy. Utilizing a CSS file, it offers a user-friendly interface, facilitating efficient tracking and assessment of environmental impact across diverse lifestyle aspects.
