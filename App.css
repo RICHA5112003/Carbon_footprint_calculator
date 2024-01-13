@@ -1,0 +1,129 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('c:\Users\richa\OneDrive\Pictures\Green_earth_B2B2S_3.png'); /* Replace with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.home-page {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+footer {
+  margin-top: auto;
+  text-align: left;
+  padding: 10px;
+ 
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+header button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* ... (other styles) */
+
+
+#result {
+  background-color: burlywood; /* Semi-transparent white background for better readability */
+  padding: 10px;
+  border-radius: 52px;
+}
+/* App.css */
+
+/* ... (previous styles) */
+
+.TransportPage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.TransportPage-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.TransportPage button {
+  margin-top: 10px; /* Adjust the margin as needed */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.DietPage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.DietPage-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.DietPage button {
+  margin-top: 10px; /* Adjust the margin as needed */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.EnergyPage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.EnergyPage-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.EnergyPage button {
+  margin-top: 10px; /* Adjust the margin as needed */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
